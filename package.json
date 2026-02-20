@@ -1,0 +1,21 @@
+{
+  "name": "testimdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:search": "playwright test src/tests/search.spec.ts",
+    "test:top250": "playwright test src/tests/top250.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.0",
+    "typescript": "^5.9.3"
+  }
+}
